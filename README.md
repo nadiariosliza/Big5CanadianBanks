@@ -55,20 +55,19 @@ Historical stock data for the Big Five Canadian banks (RY.TO, TD.TO, BMO.TO, BNS
 ### Resilience During Crises
 *   RBC consistently demonstrated superior resilience and faster recovery during the Dot-Com Burst, the 2008 Global Financial Crisis, and the COVID-19 Crash. During the 2008 crisis, CIBC's stock declined by over 61%, whereas RBC's drawdown was contained to approximately 51%.
 
-![Stock Performance During Major Crises](Images/3.4.1_growth1cad.jpg)
+![Stock Performance During Major Crises](Images/)
+<img src="Images/3.4.1_growth1cad.jpg" alt="3.4.1_growth1cad" width="50%">
 
 ## Predictive Modeling: RBC vs. CIBC
 
 The predictive modeling phase aimed to determine which bank—the stable leader (RBC) or the volatile counterpart (CIBC)—would offer superior returns in the near future.
 
 *   **RBC Model:** An optimized XGBoost model for RBC achieved an R-squared of 2.7%. The model's predictions were most influenced by long-term market context and seasonality (e.g., financial quarter, 60-day volatility).
+<img src="Images/rbc_feature_importance.jpg" alt="RBC Feature Importance" width="50%">
+
 *   **CIBC Model:** The CIBC model required a simpler structure to extract a reliable signal from its noisier data, achieving an R-squared of 1.5%. Its future returns were more sensitive to recent, short-term volatility (7-day volatility).
+<img src="Images/cibc_feature_importance.jpg" alt="CIBC Feature Importance" width="50%">
 
-![RBC Feature Importance](Images/rbc_feature_importance.jpng)
-*(Note: Save Figure 4.3.1.3 from your report and place it here.)*
-
-![CIBC Feature Importance](Images/cibc_feature_importance.jpg)
-*(Note: Save Figure 4.3.2.3 from your report and place it here.)*
 
 ## Results and Investment Recommendation
 
