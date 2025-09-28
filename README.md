@@ -55,7 +55,6 @@ Historical stock data for the Big Five Canadian banks (RY.TO, TD.TO, BMO.TO, BNS
 ### Resilience During Crises
 *   RBC consistently demonstrated superior resilience and faster recovery during the Dot-Com Burst, the 2008 Global Financial Crisis, and the COVID-19 Crash. During the 2008 crisis, CIBC's stock declined by over 61%, whereas RBC's drawdown was contained to approximately 51%.
 
-![Stock Performance During Major Crises](Images/)
 <img src="Images/3.4.1_growth1cad.jpg" alt="3.4.1_growth1cad" width="50%">
 
 ## Predictive Modeling: RBC vs. CIBC
